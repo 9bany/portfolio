@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Eban</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			/* content: 'EBAN'; */
+		}
+	</style>
 </head>
 <body>
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Eban</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h2>I <span id="typed"></span></h2>
+				</div>
+				<p>
+					I'm a developer, a student in Technology. I'm looking for ....
+				</p>
+			</div>
+		</div>
+	</div>
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h2>Technical Skills</h2>
+			<ul class="skill-list list-flat">
+				<li>Ganeral</li>
+				<li>Git/Git-Flow</li>
+				<li>Work with scrum/agile process on Gitlab and JIRA</li>
+				<li>DRY, SOLID, OOP, Design pattern</li>
+				<li>Resolve problems</li>
+				<li>Adobe XD and any tools chain</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>iOS Developer</li>
+				<li>Language: Swift/Objective-C</li>
+				<li>Package Manager: Cocoapod, Carthage, Build tools for binary framework</li>
+				<li>Framework: RxSwift, RxMoya, RxCocoa, UIKit,...</li>
+				<li>More: Clean code, Build framework, Optimize/Enhancement app, Release app, ...</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Web developer</li>
+				<li>Language: Javascript</li>
+				<li>Package Manager: NPM</li>
+				<li>Framework: Reactjs, Nodejs, Redux,... </li>
+				<li>More: Build UI/UX, Realse web app,...</li>
+			</ul>
 
+			<ul class="skill-list list-flat">
+				<li>More knowledge</li>
+				<li>Language: Golang</li>
+				<li>Video/image processing</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h2>Work Experiences</h2>
+			<ul class="work-list">
+				<li>2019 - 2020</li>
+				<li><a href="#">Umbala Technologies</a></li>
+				<li>Mobile Developer & Web Developer</li>
+			</ul>
+			<ul class="work-list">
+				<li>2021 - Presen</li>
+				<li><a href="#">TPS</a></li>
+				<li>iOS Developer</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h2>Award &amp; Achievements</h2>
+			<ul class="award-list list-flat">
+				<li>November 2020</li>
+				<li>Umbala.tv is the best a new app on App Store.</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>March 2021</li>
+				<li>CI/CD for iOS: Optimize upload time from 15 minutes to 7 minutes.</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>March 2021</li>
+				<li>iOS tools chain: generate code for ios project with MVVM architect.</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Y BUOC EBAN</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="https://github.com/ebanstev"><i class="fa fa-github"></i></a></li>
+						<li><a href="mailto:ybuoceban4569@gmail.com"><i class="fa fa-send"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["live in ho chi minh", "am a software developer"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </body>
 </html>
