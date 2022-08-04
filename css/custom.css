@@ -79,14 +79,14 @@ a:hover {
   .main-nav nav ul li.active a {
     color: #4d4d4d; }
 
-.section.second {
-  margin-bottom: 90px; }
+/* .section.second {
+  margin-bottom: 90px; } */
 .section .container {
   position: relative; }
-  .section .container:after {
+  /* .section .container:after {
     position: absolute;
     content: url(../img/separator.png);
-    left: 20px; }
+    left: 20px; } */
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
