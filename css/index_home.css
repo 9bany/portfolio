@@ -1,0 +1,27 @@
+.home_intro {
+
+}
+
+.home_intro .info_container {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translateY(-50%) translateX(50%);
+}
+.home_intro .info_container .basic_intro_content {
+    padding-top: 35px;
+
+}
+
+.home_intro .info_container .basic_intro_content h2 {
+    text-align: center;
+}
+.home_intro .info_container .basic_intro_content p {
+    text-align: center;
+}
+
+.container_footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
