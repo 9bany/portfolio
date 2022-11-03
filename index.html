@@ -22,11 +22,12 @@
 <body>
 	<!-- Introduction -->
 	<div class="home_intro intro section" id="about">
+		<!-- <p>Hi, I’m bany</p> -->
 		<div class="info_container">
             <img src="img/avatars-2kvGzMf6Kp8ImyLk-wwwiBA-t500x500.jpeg" alt="Avatar">
 			<div class="basic_intro_content">
-                <h2 class="name">BANY Y<span id="typed"></span></h2>
-                <p class="sub-title">Generalist, Maker</p>
+                <h2><span id="typed"></span></h2>
+                
             </div>
 		</div>
 	</div>
@@ -35,7 +36,7 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p>9BANY</p>
+			    	<p>BANY Y</p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
@@ -53,5 +54,21 @@
 	<script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
+	<script>
+		function newTyped(){}$(function(){
+			$("#typed").typed({
+				strings: ["Generalist", "Maker", "Coder"],
+				typeSpeed:40,
+				backDelay:350,
+				contentType:"html",
+				loop:!0,
+				resetCallback:	function() {
+					newTyped()
+				}
+			}), $(".reset").click(function() {
+				$("#typed").typed("reset")
+			})
+		});
+    </script>
 </body>
 </html>
