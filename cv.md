@@ -7,7 +7,7 @@ Software engineer, Play with DevOps tools, User&Contributor, Learns from buildin
 I'm a Software Engineer with 4,5 years of experience in Software Development.
 
 ***Facts.***
-- Familiar: Golang, Docker, CI/CD(Github Action), Grafana, PostgreSQL, Kafka, Git, Tool chains,...
+- Using Golang, Docker, CI/CD(Github Action), Grafana, PostgreSQL, Kafka, Git, Tool chains,...
 - Unit test with hight coverage, clean code, OOP, basic knowledge CAP.
 - Investigate/solve problems, working with scrum/agile process.
 - Highly focus/looking for the gap.
