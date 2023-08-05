@@ -1,5 +1,5 @@
 ## BANY
-Tinker / Maker / Coder / DevEx
+Tinker / Maker / Coder
 <br/>
 Software engineer, Play with DevOps tools, User&Contributor, Learns from building.
 
