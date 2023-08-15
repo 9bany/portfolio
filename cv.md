@@ -35,16 +35,14 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 - "The best new app in 2021" featured by the Apple Store.
 ## More
 - ***Education***: *Academy of Cryptography techniques* • 2017 - 2019
-- ***Languages***: Ê Đê • Vietnamese • English
+- ***Languages***: Vietnamese • English
 
 You can visit on my site [9bany.com/cv](https://9bany.com/cv) or my portfolio [9bany.com](https://9bany.com).
 
 
 <footer>
-<p style="float:left; width: 40%;">
-Y BUOC EBAN
-</p>
-<p style="float:left; width: 20%; text-align:center;">
+<p style="float:left; width: 60%;">
+Y BUOC EBAN - 03 7878 0843 - ybuoceban4569@gmail.com
 </p>
 <p style="float:left; width: 40%; text-align:right;">
 Copyright © 2023
