@@ -23,7 +23,7 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 - Work with large data sets / Investigate problems / Glue work.
 
 ### OLLI Technologies
-*iOS Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
+*Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
 - Owner CI/CD & Nginx-Proxy/FireWall in Docker.
 - Owner Smart-Home iOS App / Bot, App distribution strategy for App Center.
 - Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
