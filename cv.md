@@ -18,13 +18,13 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 ## Professional Experience
 ### Primedata.ai VN
 *Backend Engineer • Full-time • Aug 2022 - Present • 1 year*
-- Projects: CDP Platform (Backend Core).
+- Projects: [CDP Platform](https://primedata.ai/) (Backend Core).
 - Domain: Customer Data Management (CDP).
 - My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
 
 ### OLLI Technologies
 *Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
-- Projects: Olli iOS app, smarthome back end.
+- Projects: [MAIKA iOS app](https://apps.apple.com/us/app/maika-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o-ti%E1%BA%BFng-vi%E1%BB%87t/id1459496534), smarthome back end.
 - Domain: IOT.
 - My jobs: Build features on App / backend, Owner CI/CD & Nginx-Proxy/FireWall in Docker.
 - Achievements: Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
