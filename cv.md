@@ -18,21 +18,23 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 ## Professional Experience
 ### Primedata.ai VN
 *Backend Engineer • Full-time • Aug 2022 - Present • 1 year*
-- Collaborates with the teams to declare features/break tasks, development and delivers.
-- Define metrics and implement them with Prometheus / analytics / reports.
-- Work with large data sets / Investigate problems / Glue work.
+- Projects: CDP Platform (Backend Core).
+- Domain: Customer Data Management (CDP).
+- My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
 
 ### OLLI Technologies
 *Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
-- Owner CI/CD & Nginx-Proxy/FireWall in Docker.
-- Owner Smart-Home iOS App / Bot, App distribution strategy for App Center.
-- Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
+- Projects: Olli iOS app, smarthome back end.
+- Domain: IOT.
+- My jobs: Build features on App / backend, Owner CI/CD & Nginx-Proxy/FireWall in Docker.
+- Achievements: Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
 
 ### Umbala Network
 *iOS Engineer • Full-time • Feb 2019 - Jan 2020 • 2 yrs*
-- CI/CD on GitLab, automatically release an app version to the App Store.
-- Built an iOS app and a live streaming SDK for iOS from scratch.
-- "The best new app in 2021" featured by the Apple Store.
+- Projects: Umbala.tv iOS app, live streaming SDK.
+- Domain: ecommerce / social / live streaming.
+- My jobs: Build Umbala.tv App.
+- Achievements: "The best new app in 2021" featured by the Apple Store.
 ## More
 - ***Education***: *Academy of Cryptography techniques* • 2017 - 2019
 - ***Languages***: Vietnamese • English
