@@ -36,7 +36,7 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 - My jobs: Build Umbala.tv App.
 - Achievements: "The best new app in 2021" featured by the Apple Store.
 ## More
-- ***Education***: *Academy of Cryptography techniques* • 2017 - 2019
+- ***Education***: *Academy of Cryptography techniques (KMA)* • 2017 - 2019
 - ***Languages***: Vietnamese • English
 
 You can visit on my site [9bany.com/cv](https://9bany.com/cv) or my portfolio [9bany.com](https://9bany.com).
