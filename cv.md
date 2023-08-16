@@ -11,6 +11,7 @@ Software engineer, Play with DevOps tools, User&Contributor, Learns from buildin
 I'm a software engineer with 4.5 years of experience in software development, with 2.5 years as an iOS developer and 2 years as a backend developer.
 
 ***Facts.***
+- CS, Data structures and algorithms.
 - Using Golang, Docker, CI/CD(Github Action), Grafana, PostgreSQL, Kafka, Git, Tool chains,...
 - Unit test with hight coverage, clean code, OOP, basic knowledge CAP, Investigate/solve problems.
 - Working with scrum/agile process / Highly focus / Looking for the gap.
