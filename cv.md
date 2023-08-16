@@ -3,8 +3,12 @@ Tinker / Maker / Coder
 <br/>
 Software engineer, Play with DevOps tools, User&Contributor, Learns from building.
 
+- *Fullname:* Y BUOC EBAN - Base on Ho Chi Minh City
+- *Contact:* 03 7878 0843 - ybuoceban4569@gmail.com
+- *More:* [github.com/9bany](https://github.com/9bany) & [leetcode.com/9bany](https://leetcode.com/9bany/) & [linkedin.com/in/9bany](https://www.linkedin.com/in/9bany/)
+
 ## Introduce
-I'm a Software Engineer with 4,5 years of experience in Software Development.
+I'm a software engineer with 4.5 years of experience in software development, with 2.5 years as an iOS developer and 2 years as a backend developer.
 
 ***Facts.***
 - Using Golang, Docker, CI/CD(Github Action), Grafana, PostgreSQL, Kafka, Git, Tool chains,...
@@ -47,7 +51,7 @@ You can visit on my site [9bany.com/cv](https://9bany.com/cv) or my portfolio [9
 
 <footer>
 <p style="float:left; width: 60%;">
-Y BUOC EBAN - 03 7878 0843 - ybuoceban4569@gmail.com
+Y BUOC EBAN - ybuoceban4569@gmail.com
 </p>
 <p style="float:left; width: 40%; text-align:right;">
 Copyright © 2023
