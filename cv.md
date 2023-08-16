@@ -17,7 +17,7 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 
 ## Professional Experience
 ### Primedata.ai VN
-*Backend Engineer • Full-time • Aug 2022 - Present • 1 year*
+*Backend Engineer • Full-time • Aug 2022 - Aug 2023 • 1 year*
 - Projects: [CDP Platform](https://primedata.ai/) (Backend Core).
 - Domain: Customer Data Management (CDP).
 - My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
