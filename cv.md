@@ -21,12 +21,14 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 - Projects: [CDP Platform](https://primedata.ai/) (Backend Core).
 - Domain: Customer Data Management (CDP).
 - My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
+- Tech stacks: Golang/Python, Github Action, Kafka, Docker, K8s, Grafana, PostgreSQL, CLickhouse, Redis.
 
 ### OLLI Technologies
 *Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
 - Projects: [MAIKA iOS app](https://apps.apple.com/us/app/maika-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o-ti%E1%BA%BFng-vi%E1%BB%87t/id1459496534), smarthome back end.
 - Domain: IOT.
 - My jobs: Build features on App / backend, Owner CI/CD & Nginx-Proxy/FireWall in Docker.
+- Tech stacks: Swift/Go, Nodejs, Docker, CI/CD, Test cases.
 - Achievements: Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
 
 ### Umbala Network
@@ -34,6 +36,7 @@ I'm a Software Engineer with 4,5 years of experience in Software Development.
 - Projects: Umbala.tv iOS app, live streaming SDK.
 - Domain: ecommerce / social / live streaming.
 - My jobs: Build Umbala.tv App.
+- Tech stacks: Swift/Go/Js, Reactjs, UIKit, Golang, Docker.
 - Achievements: "The best new app in 2021" featured by the Apple Store.
 ## More
 - ***Education***: *Academy of Cryptography techniques (KMA)* • 2017 - 2019
