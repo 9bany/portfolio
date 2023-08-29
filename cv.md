@@ -1,5 +1,5 @@
 ## BANY
-Tinker / Maker / Coder
+Tinker / Maker / Coder / Emacs guy
 <br/>
 Software engineer, Play with DevOps tools, User&Contributor, Learns from building.
 
@@ -8,13 +8,35 @@ Software engineer, Play with DevOps tools, User&Contributor, Learns from buildin
 - *More:* [github.com/9bany](https://github.com/9bany) & [leetcode.com/9bany](https://leetcode.com/9bany/) & [linkedin.com/in/9bany](https://www.linkedin.com/in/9bany/)
 
 ## Introduce
-I'm a software engineer with 4.5 years of experience in software development, with 2.5 years as an iOS developer and 2 years as a backend developer.
+I'm a software engineer with 4.5 years of experience in software development, with 2 years as an Golang engineer and 2.5 years as a iOS developer.
 
 ***Facts.***
+- Coding to finish tasks, open source contribution on Github.
+- Book/blog reading, play Billiards/Football.
+- Love draw, battle rap / rock.
+
+## Tech Stacks / Skills
+
+***Tech stacks:***
 - CS, Data structures and algorithms.
-- Using Golang, Docker, CI/CD(Github Action), Grafana, PostgreSQL, Kafka, Git, Tool chains,...
-- Unit test with hight coverage, clean code, OOP, basic knowledge CAP, Investigate/solve problems.
+- Using Golang, PostgreSQL/Clickhouse, Kafka, Docker as a orchestrator and dev tool.
+- Grafana, Prometheus, CI/CD(Github Action), Git, Tool chains,...
+
+***Skill Set:***
+- Standard backend knowledge base.
+- Monitoring application with Grafana / Prometheus / Opentelemetry.
 - Working with scrum/agile process / Highly focus / Looking for the gap.
+
+***Ex Opensource Projects:***
+- task: My interview code.
+- ron: Application watcher and restart.
+- curl-to-json: Convert curl to json
+- git-switch: Easy using git with multiple accounts
+- meet-lab: meet-lab with docker orchestration.
+
+***All projects i'm working as a Contributor / Creator:***
+- 9bany.com/projects
+
 
 ***What am I doing with my free time?***
 - Book/blog reading, play Billiards/Football, love battle rap / rock.
