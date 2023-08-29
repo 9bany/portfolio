@@ -18,7 +18,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 ## Tech Stacks / Skills
 
 ***Tech stacks:***
-- CS, Data structures and algorithms.
+- CS, Data structures and algorithms, OS & Network protocol.
 - Using Golang, PostgreSQL/Clickhouse, Kafka, Docker as a orchestrator and dev tool.
 - Grafana, Prometheus, CI/CD(Github Action), Git, Tool chains,...
 
