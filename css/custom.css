@@ -174,12 +174,16 @@ footer {
       color: #999999; }
 
 
-.container-table {
+.container{
   margin: auto;
-  max-width: 80%;
+  max-width: 60%;
   padding: 0 20px;
 }
 
 .project {
   margin-top: 50px;
+}
+.main-nav {
+  background: #ffffff;
+  padding-top: 23px;
 }
