@@ -30,8 +30,8 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 ***Opensource Projects:***
 - [tasks](https://github.com/9bany/tasks): My interview code.
 - [ron](https://github.com/9bany/ron): Application watcher and restart.
-- [curl-to-json](https://github.com/9bany/curl-to-json): Convert curl to json
-- [git-switch](https://github.com/9bany/git-switch): Easy using git with multiple accounts
+- [curl-to-json](https://github.com/9bany/curl-to-json): Convert curl to json.
+- [git-switch](https://github.com/9bany/git-switch): Easy using git with multiple accounts.
 - [meet-lab](https://github.com/9bany/meet-lab): meet-lab with docker orchestration.
 
 ***All projects i'm working as a Contributor / Creator:***
