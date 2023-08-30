@@ -52,7 +52,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 
 ### OLLI Technologies
 *Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
-- Projects: [MAIKA iOS app](https://apps.apple.com/us/app/maika-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o-ti%E1%BA%BFng-vi%E1%BB%87t/id1459496534), smarthome back end.
+- Projects: [MAIKA iOS app](https://apps.apple.com/us/app/maika-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o-ti%E1%BA%BFng-vi%E1%BB%87t/id1459496534), bot(healthy checking), smarthome back end.
 - Domain: IOT.
 - My jobs: Build features on App / backend, Owner CI/CD & Nginx-Proxy/FireWall in Docker.
 - Tech stacks: Swift/Go, Nodejs, Docker, CI/CD, Test cases.
