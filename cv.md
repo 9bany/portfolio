@@ -59,7 +59,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Achievements: Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
 
 ### Umbala Network
-*iOS Engineer • Full-time • Feb 2019 - Jan 2020 • 2 yrs*
+*iOS Engineer • Full-time • Feb 2019 - Jan 2021 • 2 yrs*
 - Projects: Umbala.tv iOS app, live streaming SDK.
 - Domain: ecommerce / social / live streaming.
 - My jobs: Build Umbala.tv App.
