@@ -23,7 +23,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Grafana, Prometheus, CI/CD(Github Action), Git, Tool chains,...
 
 ***Skill Set:***
-- Standard backend knowledge, CAP, Microvervice.
+- Standard backend knowledge, RESTful API, CAP, Microvervice.
 - Monitoring application with Grafana / Prometheus / Opentelemetry.
 - Working with scrum/agile process / Highly focus / Looking for the gap.
 
