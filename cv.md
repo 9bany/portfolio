@@ -4,7 +4,7 @@ Tinker / Maker / Coder / Emacs guy
 Software engineer, Play with DevOps tools, User&Contributor, Learns from building.
 
 - *Fullname:* Y BUOC EBAN - Base on Ho Chi Minh City
-- *Contact:* 03 7878 0843 - ybuoceban4569@gmail.com
+- *Contact:* ybuoceban4569@gmail.com
 - *More:* [github.com/9bany](https://github.com/9bany) & [leetcode.com/9bany](https://leetcode.com/9bany/) & [linkedin.com/in/9bany](https://www.linkedin.com/in/9bany/)
 
 ## Introduce
