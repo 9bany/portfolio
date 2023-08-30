@@ -34,7 +34,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - [git-switch](https://github.com/9bany/git-switch): Easy using git with multiple accounts.
 - [meet-lab](https://github.com/9bany/meet-lab): meet-lab with docker orchestration.
 
-***All projects i'm working as a Contributor / Creator:***
+***All projects I'm working on as a Contributor / Creator:***
 - [9bany.com/projects](https://9bany.com/projects)
 
 
