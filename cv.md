@@ -72,8 +72,9 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Projects: Umbala.tv iOS app, live streaming SDK.
 - Domain: ecommerce / social / live streaming.
 - My jobs: Build Umbala.tv App.
-- Tech stacks: Swift/Go/Js, Reactjs, UIKit, Golang, Docker.
+- Tech stacks: Swift/Go/Js, Reactjs, UIKit, GPUImage, Docker.
 - Achievements: 
+    - Images/ video editor.
     - Build SDK live streaming from scratch.
     - "The best new app in 2021" featured by the Apple Store.
 ## More
