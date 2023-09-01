@@ -48,7 +48,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Projects: [CDP Platform](https://primedata.ai/) (Backend Core).
 - Domain: Customer Data Management (CDP).
 - My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
-- Tech stacks: Golang/Python, Github Action, Kafka, Docker, K8s, Grafana, PostgreSQL, CLickhouse, Redis.
+- Tech stacks: Golang/Python, GRPC, Github Action, Kafka, Docker, K8s, Grafana, PostgreSQL, CLickhouse, Redis.
 - Achievements: 
     - Reduce loging storage on k8s from 40GB to 40MB.
     - Migration tool with existing databases / Build query builder in the application layer.
