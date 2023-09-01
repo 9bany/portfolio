@@ -86,7 +86,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - ***Education***: *Academy of Cryptography techniques (KMA)* • 2017 - 2019
 - ***Languages***: Vietnamese • English
 
-You can visit on my site [9bany.com/cv](https://9bany.com/cv) or my portfolio [9bany.com](https://9bany.com).
+You can visit on my site [9bany.com/cv](https://9bany.com/cv.pdf) or my portfolio [9bany.com](https://9bany.com).
 
 
 <footer>
