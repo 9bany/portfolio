@@ -5,7 +5,7 @@ Software engineer, Play with DevOps tools, User&Contributor, Learns from buildin
 
 - *Fullname:* Y BUOC EBAN - Base on Ho Chi Minh City
 - *Contact:* ybuoceban4569@gmail.com
-- *More:* [github.com/9bany](https://github.com/9bany) & [leetcode.com/9bany](https://leetcode.com/9bany/) & [linkedin.com/in/9bany](https://www.linkedin.com/in/9bany/)
+- *More:*  [blogs](https://blog.9bany.com/) & [github.com/9bany](https://github.com/9bany) & [leetcode.com/9bany](https://leetcode.com/9bany/) & [linkedin.com/in/9bany](https://www.linkedin.com/in/9bany/)
 
 ## Introduce
 I'm a software engineer with 4.5 years of experience in software development, with 2 years as an Golang engineer and 2.5 years as a iOS developer.
@@ -74,7 +74,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - My jobs: Build Umbala.tv App.
 - Tech stacks: Swift/Go/Js, Reactjs, UIKit, GPUImage, Docker.
 - Achievements: 
-    - Images/ video editor.
+    - Build the tmages/ video editor.
     - Build SDK live streaming from scratch.
     - "The best new app in 2021" featured by the Apple Store.
 ## More
