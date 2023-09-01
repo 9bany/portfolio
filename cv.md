@@ -49,6 +49,11 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Domain: Customer Data Management (CDP).
 - My jobs: Collaborates with the teams to declare features/break tasks, development and delivers. Define metrics and implement them with Prometheus / analytics / reports.
 - Tech stacks: Golang/Python, Github Action, Kafka, Docker, K8s, Grafana, PostgreSQL, CLickhouse, Redis.
+- Achievements: 
+    - Reduce loging storage on k8s from 40GB to 40MB.
+    - Migration tool with existing databases / Build query builder in the application layer.
+    - Make easy bug investegation with Opentelemetry.
+    - Find the reason why we need to say "hello" to everyone in the morning.
 
 ### OLLI Technologies
 *Software Engineer • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
@@ -56,7 +61,11 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Domain: IOT.
 - My jobs: Build features on App / backend, Owner CI/CD & Nginx-Proxy/FireWall in Docker.
 - Tech stacks: Swift/Go, Nodejs, Docker, CI/CD, Test cases.
-- Achievements: Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
+- Achievements: 
+    - Optimize the iOS project build time to reduce it from 17 minutes to 7 minutes.
+    - Optimize upload time of the ipa file (the release file of ios APP) from 7 minutes to 1 minute.
+    - Enhance user experience and behavior on the app.
+    - The bot health check API runs every day.
 
 ### Umbala Network
 *iOS Engineer • Full-time • Feb 2019 - Jan 2021 • 2 yrs*
@@ -64,7 +73,9 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 - Domain: ecommerce / social / live streaming.
 - My jobs: Build Umbala.tv App.
 - Tech stacks: Swift/Go/Js, Reactjs, UIKit, Golang, Docker.
-- Achievements: "The best new app in 2021" featured by the Apple Store.
+- Achievements: 
+    - Build SDK live streaming from scratch.
+    - "The best new app in 2021" featured by the Apple Store.
 ## More
 - ***Education***: *Academy of Cryptography techniques (KMA)* • 2017 - 2019
 - ***Languages***: Vietnamese • English
