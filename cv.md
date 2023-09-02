@@ -79,7 +79,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - Internship developer / Web developer(Reactjs) / iOS developer.
     - Develop features and follow the full development cycle from user story -> clarify -> design -> make decisions (by leader) -> implement -> release.
 - Achievements: 
-    - Build the images/ video editor.
+    - Build the image/video editor.
     - Build SDK live streaming from scratch.
     - "The best new app in 2021" featured by the Apple Store.
 ## More
