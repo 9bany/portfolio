@@ -38,9 +38,13 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 ***What am I doing with my free time?***
 - Book/blog reading, play Billiards/Football, love battle rap / rock.
 - Open source contribution on Github.
+
 ## Professional Experience
+
 ### Primedata.ai VN
+
 *Backend Engineer 2 • Full-time • Aug 2022 - Aug 2023 • 1 year 1 month*
+
 - Domain: Customer Data Management (CDP).
 - Projects: [CDP Platform](https://primedata.ai/) (Backend Core).
 - Tech stacks: Golang/Python, GRPC, Github Action, Kafka, Docker, (work with)K8s, Grafana, PostgreSQL, CLickhouse, Redis.
@@ -56,7 +60,9 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - Find the reason why we need to say "hello" to everyone in the first meeting of the day.
 
 ### OLLI Technologies
+
 *Software Engineer 2 • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
+
 - Domain: IOT.
 - Projects: [MAIKA iOS app](https://apps.apple.com/us/app/maika-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o-ti%E1%BA%BFng-vi%E1%BB%87t/id1459496534), bot(healthy checking), smarthome back end.
 - Tech stacks: Swift/Go, Nodejs, Docker, CI/CD, Test cases.
@@ -71,6 +77,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - The bot health check API runs every day.
 
 ### Umbala Network
+
 *iOS Engineer • Full-time • Feb 2019 - Jan 2021 • 2 yrs*
 - Domain: ecommerce / social / live streaming.
 - Projects: Umbala.tv iOS app, live streaming SDK.
@@ -82,7 +89,9 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - Build the image/video editor.
     - Build SDK live streaming from scratch.
     - "The best new app in 2021" featured by the Apple Store.
+
 ## More
+
 - ***Education***: *Academy of Cryptography techniques (KMA)* • 2017 - 2019
 - ***Languages***: Vietnamese • English
 
