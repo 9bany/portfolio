@@ -97,12 +97,3 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 
 You can visit on my site [9bany.com/cv](https://9bany.com/cv.pdf) or my portfolio [9bany.com](https://9bany.com).
 
-
-<footer>
-<p style="float:left; width: 60%;">
-Y BUOC EBAN - ybuoceban4569@gmail.com
-</p>
-<p style="float:left; width: 40%; text-align:right;">
-Copyright © 2023
-</p>
-</footer>
