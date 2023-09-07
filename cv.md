@@ -55,7 +55,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - Define metrics and implement them with Prometheus / analytics / reports.
 - Achievements: 
     - Reduce loging storage on k8s from 40GB to 40MB.
-    - Migration tool with existing databases / Build query builder in the application layer.
+    - Migration tool with existing databases / Build query builder in the application layer / SQL fixing.
     - Make easy bug investegation with Opentelemetry.
     - Find the reason why we need to say "hello" to everyone in the first meeting of the day.
 
