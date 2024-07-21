@@ -50,7 +50,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
     - Gap filer, Collaborates with the teams to declare features/break tasks, development and delivers.
 ### OLLI Technologies
 
-*Software Engineer 2 • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
+*iOS Engineer 2 • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
 
 ### Umbala Network
 
