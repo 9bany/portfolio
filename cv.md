@@ -46,8 +46,8 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 
 - Domain: Customer Data Management (CDP).
 - Tech stacks: Golang/Python, GRPC, Github Action, Kafka, Docker, (work with)K8s, Grafana, PostgreSQL, CLickhouse, Redis.
-- Roles & Responsibilities: 
-    - Gap filer, Collaborates with the teams to declare features/break tasks, development and delivers.
+- Gap filer, Collaborates with the teams to declare features/break tasks, development and delivers.
+
 ### OLLI Technologies
 
 *iOS Engineer 2 • Full-time • Feb 2021 - Aug 2022 • 1 yr 9 mos*
