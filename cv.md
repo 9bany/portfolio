@@ -39,6 +39,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 	- Solved memory leaks in Be-kit, resulting in significant cost reduction and improved system performance
 	- Utilized profiling tools (pprof) to identify and resolve memory and goroutine leak issues in Golang applications, improving system performance and stability.
 	- Conducted an internal tech talk to present the problem-solving process and results to colleagues, fostering knowledge sharing and technical skill development within the team.
+ 	- Build up CDP/Notification Platform
  	- BeStar Award 2024
 
 ### Primedata.ai VN
