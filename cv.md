@@ -46,7 +46,7 @@ I'm a software engineer with 4.5 years of experience in software development, wi
 
 *Backend Engineer 2 • Full-time • Aug 2022 - Aug 2023 • 1 year 1 month*
 
-- Domain: Customer Data Management (CDP).
+- Domain: Customer Data Platform (CDP).
 - Tech stacks: Golang/Python, GRPC, Github Action, Kafka, Docker, (work with)K8s, Grafana, PostgreSQL, CLickhouse, Redis.
 - Gap filer, Collaborates with the teams to declare features/break tasks, development and delivers.
 
