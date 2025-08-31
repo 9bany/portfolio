@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// Import frameworks & theme styles
+@import
+  "normalize",
+  "colors",
+  "sassline-base",
+  "syntax",
+  "flex",
+  "theme"
+;
+
+.footer {
+  border: none !important;
+}
+
+.header {
+  background-color: #fff !important;
+  border-bottom: 0px solid #000 !important;
+}
+
+.header .container .nav .list .item--current {
+  text-decoration: underline !important;
+}
