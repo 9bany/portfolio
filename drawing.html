@@ -1,62 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Bany</title>
+    <title>Drawings — Bany</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@9bany">
-    <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" type="image/png" href="./favicon.ico"/>
-    <link rel="stylesheet" href="css/kube.min.css" />
+    <meta name="description" content="Ink & pencil drawings by Bany" />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/index_home.css" />
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		li.active {
-			text-decoration: underline;
-		}
-	</style>
+    <link rel="stylesheet" href="css/drawing.css" />
 </head>
 <body>
+    <div class="drawing-page">
+        <header class="drawing-header">
+            <a href="https://9bany.com" class="back-link">← back</a>
+            <h1>Drawings</h1>
+            <p class="subtitle">ink, pencil & patience</p>
+            <div class="header-line"></div>
+        </header>
 
-	<!-- Introduction -->
-	<div class="home_intro intro section" id="about">
-		<!-- <p>Hi, I’m bany</p> -->
-		<div class="info_container">
-			<div class="basic_intro_content">
-                <h2>Coming<span id="typed"></span></h2>
+        <main class="gallery">
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="img/9E0974D8-BF0D-41A5-ADD5-D5E2B9F4593D_1_105_c.jpeg" alt="Dynamic character ink drawing" loading="lazy" />
+                <div class="overlay"><span class="caption">ink on paper</span></div>
             </div>
-			<div class="more--page">
-				<div class="page">
-					<a target="_blank" href="https://9bany.com">back</a>
-				</div>
-			</div>
-		</div>
-	</div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="img/6F26C75A-F393-4EB8-B7FA-E794C17F529C_1_105_c.jpeg" alt="Portrait with hat" loading="lazy" />
+                <div class="overlay"><span class="caption">ink on paper</span></div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="img/0ADC0B9D-8A94-4E15-8CD1-320A85CC3F88_1_105_c.jpeg" alt="Sketchbook on laptop" loading="lazy" />
+                <div class="overlay"><span class="caption">process</span></div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="img/E79E34B5-89A3-4B35-B184-5C39E15669C1_1_105_c.jpeg" alt="Warrior from behind" loading="lazy" />
+                <div class="overlay"><span class="caption">ink on paper</span></div>
+            </div>
+            <div class="gallery-item" onclick="openLightbox(this)">
+                <img src="img/F8BA6B2F-D374-4CC8-8B94-ED0E00F4B6D0_1_105_c.jpeg" alt="Portrait with sunglasses" loading="lazy" />
+                <div class="overlay"><span class="caption">ink on paper</span></div>
+            </div>
+        </main>
 
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-	<script>
-		function newTyped(){}$(function(){
-			$("#typed").typed({
-				strings: ["....."],
-				typeSpeed:600,
-				backDelay:700,
-				contentType:"html",
-				loop: false,
-				resetCallback:	function() {
-					newTyped()
-				}
-			}), $(".reset").click(function() {
-				$("#typed").typed("reset")
-			})
-		});
+        <footer class="drawing-footer">
+            <p>all works — pen, ink & graphite</p>
+            <div class="social-links">
+                <a target="_blank" href="https://github.com/9bany"><i class="fa fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/9bany/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <script>
+        function openLightbox(el) {
+            var img = el.querySelector('img');
+            var lb = document.getElementById('lightbox');
+            var lbImg = document.getElementById('lightbox-img');
+            lbImg.src = img.src;
+            lbImg.alt = img.alt;
+            lb.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox(e) {
+            if (e.target === document.getElementById('lightbox-img')) return;
+            var lb = document.getElementById('lightbox');
+            lb.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                var lb = document.getElementById('lightbox');
+                lb.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
     </script>
 </body>
 </html>
