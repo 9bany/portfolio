@@ -26,14 +26,31 @@ a:hover {
   max-width: 60%;
   padding: 0 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 80%; } }
+
 @media only screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px; }
+
   .intro img {
     display: block;
     margin-left: auto;
     margin-right: auto; }
 
   footer {
-    text-align: center; } }
+    text-align: center; }
+
+  .work .work-list li {
+    font-size: 0.875em; }
+
+  .intro {
+    padding: 12px 0px 0px 0px; }
+
+  h2 {
+    font-size: 1.2em; } }
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
