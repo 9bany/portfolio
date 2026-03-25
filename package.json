@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "md-to-pdf": "^5.2.4"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.40.0"
   }
 }

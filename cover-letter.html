@@ -124,6 +124,23 @@
 			margin-bottom: 10px;
 			margin-top: 4px;
 		}
+		@media print {
+			.container {
+				max-width: 92%;
+				padding: 0 24px;
+			}
+			body, a, p, li {
+				font-size: 0.82em;
+			}
+			h2 { font-size: 1.1em; }
+			.letter-body p { font-size: 0.875em; }
+			.projects-table { font-size: 0.8em; }
+			a[href]:after { content: none !important; }
+			.nav-links a, .letter-meta a {
+				color: #333 !important;
+				text-decoration: underline !important;
+			}
+		}
 	</style>
 </head>
 
