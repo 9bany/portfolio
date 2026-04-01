@@ -195,6 +195,18 @@ footer {
       color: #999999; }
 
 
+.social {
+  margin-top: 20px;
+}
+
+.social li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px; }
+.social li a {
+      font-size: 1.25em;
+      color: #999999; }
+
 
 .project {
   margin-top: 50px;
