@@ -11,7 +11,9 @@ const browser = await puppeteer.launch({
 
 for (const name of ['cv', 'cover-letter']) {
   const page = await browser.newPage();
-  await page.goto(`file://${path.join(__dirname, name + '.html')}`, { waitUntil: 'networkidle0' });
+  await page.goto(`file://${path.join(__dirname, name + '.html')}`, { waitUntil: 'load', timeout: 60000 });
+  // Wait for web fonts to finish loading so text renders correctly in the PDF.
+  await page.evaluate(() => document.fonts.ready);
   await page.pdf({
     path: path.join(__dirname, name + '.pdf'),
     format: 'A4',
