@@ -82,10 +82,11 @@
 			<h2>tech-stack</h2>
 			<ul>
                 <li><strong>Programming Languages:</strong> Go/Rust/Python/JS/Bash/Swift.</li>
-				<li><strong>Mobile (iOS):</strong> UIKit, SwiftUI.</li>
-				<li><strong>Databases:</strong> MySQL, ClickHouse, Redis.</li>
+				<li><strong>Mobile:</strong> UIKit, SwiftUI (iOS), Flutter (Android/iOS/Web).</li>
+				<li><strong>Web:</strong> Next.js (App Router), React.</li>
+				<li><strong>Databases:</strong> MySQL, PostgreSQL, ClickHouse, Redis.</li>
 				<li><strong>Message Queues:</strong> Kafka, Google Pub/Sub.</li>
-                <li><strong>Infrastructure&Monitoring:</strong> Docker, Kubernetes, CI/CD, Grafana, Prometheus, pprof, pyroscope.</li>
+                <li><strong>Infrastructure&Monitoring:</strong> Docker, Kubernetes, Helm, Terraform, CI/CD, Grafana, Prometheus, pprof, pyroscope.</li>
 				<li><strong>AI/ML:</strong> LLM, RAG, Agent orchestrator.</li>
 				<li><strong>DSA:</strong> <a href="https://leetcode.com/9bany" target="_blank">leetcode.com/9bany.</a></li>
 			</ul>
@@ -99,10 +100,23 @@
 
             <ul class="work-list">
 
+				<li><a href="https://vetcgo.vn" target="_blank">Tasco / VETC</a> </li>
+				<p>Tasco — Vietnam's ETC operator; VETC super-app serves 4.3M+ users (wallet, toll collection). VETC Go is its B2C self-drive car-rental platform, shipped both as a mini-program inside the super-app and as a standalone web/mobile product.</p>
+				<ul class="work-list">
+					<li class="time"><b>Software Engineer</b> • Contract / part-time • Jul 2026 – Aug 2026</li>
+					<li>- Tech stack: Golang, Next.js/React, Flutter, PostgreSQL, Redis, gRPC/Protobuf, Kong, Docker, Kubernetes (FPT Cloud), Helm, Terraform, Prometheus/Grafana.</li>
+					<li class="highlight">- <b>Shipped <a href="https://vetcgo.vn" target="_blank">vetcgo.vn</a> in ~3 weeks</b> — Next.js 15 App Router marketing site + booking funnel, same-origin BFF with httpOnly-cookie auth, SSR for SEO, GA4/GTM with Consent Mode v2. Live in production.</li>
+					<li class="highlight">- <b>Monolith → Go microservices:</b> ported a NestJS monolith to 8+ Go services (identity, customer, ops, pricing, payment, push, sms, map) behind a stable gateway contract. Kept both backends provably equivalent with a language-agnostic conformance suite running the same specs against each.</li>
+					<li>- Integrated the VETC super-app end-to-end: OAuth (client-credentials + auth-code exchange), payment create/refund, HMAC-verified IPN webhooks, signed deeplinks — plus VNPay IPN spec compliance and two-way webhook logging.</li>
+					<li>- Built the SRE tooling from scratch: one <code>sre</code> CLI for build/deploy/rollback/secrets across ~12 apps, cluster-side buildkit, immutable commit-derived image tags, age-encrypted secrets safe to commit.</li>
+					<li>- Shared Prometheus package across all Go services (HTTP RED + gRPC server/client metrics) on a dedicated port unreachable from ingress by construction.</li>
+					<li>- Delivered Flutter customer &amp; staff apps (Android/iOS/Web) with FCM push, SSE live trip status, and in-house APK distribution via presigned URLs.</li>
+				</ul>
+
 				<li><a href="#">BeGroup</a> </li>
 				<p>Be Group - one of Vietnam's fastest-growing tech startups, operator of the Be super app (ride-hailing, food delivery, super-app). Serving 9M+ customers nationwide, with 300,000+ drivers and tens of millions of monthly transactions.</p>
                 <ul class="work-list">
-                    <li class="time"><b>Senior Software Engineer</b> • Aug 2023 – Present • 2 yrs 9 mos</li>
+                    <li class="time"><b>Senior Software Engineer</b> • Aug 2023 – Present • 3 yrs</li>
                     <li>- Tech stack: Golang, MySQL, Kafka/Google Pub/Sub, Redis, Docker, Kubernetes, Grafana, Prometheus, pprof.</li>
                     <li>- Built and maintained large-scale systems: AI Platform, CDP, Notification Platform, Fraud Detection, Event Pipeline. Acted as embedded PM across all products — owning requirements, aligning stakeholders, and driving delivery end-to-end.</li>
                     <li class="highlight">- <b>AI Platform & LLM Integration:</b> Led end-to-end design and delivery of an AI Platform powering multiple AI agent products. Defined technical direction, integrated LLMs (OpenAI API), RAG pipelines, and agent orchestration. Worked directly with PMs and business stakeholders to translate use-cases into shipped products — with a lean team.</li>
@@ -150,6 +164,7 @@
 		<div class="container">
 			<h2>projects</h2>
 			<ul>
+				<li><strong>Tasco/VETC:</strong> <a href="https://vetcgo.vn" target="_blank">VETC Go</a> — car-rental platform (Next.js web, Go microservices, VETC mini-app, Flutter customer/staff apps).</li>
 				<li><strong>BeGroup:</strong> CDP, Notification Platform, Fraud Detection System, AI/Agent orchestrator, Event/Data Pipeline.</li>
 				<li><strong>Primedata.ai:</strong> CDP SaaS.</li>
 				<li><strong>Umbala.tv:</strong> iOS apps (ecommerce / social / live streaming).</li>
