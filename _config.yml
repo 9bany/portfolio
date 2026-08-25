@@ -66,6 +66,6 @@ title: "Bany" # Site name or title
 # logo: "/img/53461381.png" # Site logo
 favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
 description: "A really basic theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
-url: "https://9bany.com" # Site url
+url: "https://9bany.io" # Site url
 baseurl: ""
 lang: en-GB
