@@ -25,6 +25,24 @@
 		.nav-links a:hover {
 			color: #333 !important;
 		}
+		.pdf-btn {
+			display: inline-block;
+			background: none;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			color: #8c8c8c;
+			padding: 3px 11px;
+			font-size: 0.85em;
+			font-family: "Space Grotesk", sans-serif;
+			line-height: 1.6;
+			cursor: pointer;
+			vertical-align: middle;
+			transition: color 0.2s ease, border-color 0.2s ease;
+		}
+		.pdf-btn:hover {
+			color: #333;
+			border-color: #333;
+		}
 		.letter-body p {
 			font-size: 0.9375em;
 			line-height: 1.85em;
@@ -124,7 +142,12 @@
 			margin-bottom: 10px;
 			margin-top: 4px;
 		}
+		@page {
+			size: A4;
+			margin: 0;
+		}
 		@media print {
+			.pdf-btn { display: none !important; }
 			.container {
 				max-width: 92%;
 				padding: 0 24px;
@@ -152,6 +175,7 @@
 				<p class="nav-links">
 					<a href="cv.html">cv</a>
 					<a href="projects.html">projects</a>
+					<button type="button" class="pdf-btn" onclick="window.print()">export pdf &darr;</button>
 				</p>
 			</div>
 		</div>
@@ -178,10 +202,14 @@
 				</p>
 
 				<p>
-					Currently, I am a <strong>Senior Software Engineer at BeGroup</strong>, one of Vietnam's fastest-growing tech startups (Be super app — 9M+ customers, tens of millions of monthly transactions), where I led multiple high-impact systems:
+					I am a <strong>Senior Software Engineer at BeGroup</strong>, one of Vietnam's fastest-growing tech
+					startups (Be super app — 9M+ customers, tens of millions of monthly transactions), where I have led
+					multiple high-impact systems. Most recently, I also took on a contract engagement at
+					<strong>Tasco / VETC</strong>, where I shipped a production car-rental platform end-to-end in weeks
+					rather than quarters:
 				</p>
 
-				<p class="projects-section-label">Selected Projects at BeGroup</p>
+				<p class="projects-section-label">Selected Projects</p>
 				<table class="projects-table">
 					<thead>
 						<tr>
@@ -191,6 +219,14 @@
 						</tr>
 					</thead>
 					<tbody>
+						<tr>
+							<td>
+								<div class="project-name">VETC Go <span style="color:#999; font-weight:400;">(Tasco / VETC)</span></div>
+								<span class="role-tag">Software Engineer · Contract</span>
+							</td>
+							<td style="color:#999; font-size:0.9em; white-space:nowrap;">Jul 2026 – Aug 2026</td>
+							<td>Shipped <a href="https://vetcgo.vn" target="_blank">vetcgo.vn</a> to production in ~3 weeks (Next.js 15 App Router, same-origin BFF with httpOnly-cookie auth, SSR for SEO). Ported a NestJS monolith to 8+ Go microservices behind a stable gateway contract, kept provably equivalent by a language-agnostic conformance suite. Built the SRE tooling from scratch and delivered Flutter customer &amp; staff apps.</td>
+						</tr>
 						<tr>
 							<td>
 								<div class="project-name">AI Platform</div>
@@ -218,7 +254,7 @@
 					</tbody>
 				</table>
 				<p style="font-size:0.875em; color:#666; margin-bottom:20px;">
-					Received the <strong style="color:#444;">BeStar Award 2024</strong> for outstanding engineering contribution.
+					Received the <strong style="color:#444;">BeStar Award 2024</strong> at BeGroup for outstanding engineering contribution.
 				</p>
 
 				<p>
@@ -237,17 +273,18 @@
 				</p>
 
 				<p>
-					My technical toolkit spans <strong>Go, Rust, Python, and JavaScript</strong>, with deep experience in
-					MySQL, ClickHouse, Redis, Kafka, Kubernetes, and AI/ML integration (LLMs, RAG, agent orchestration,
-					OpenAI API, LangChain). I am particularly energized by the intersection of AI and product — finding
-					practical ways to ship LLM-powered features that create measurable value.
+					My technical toolkit spans <strong>Go, Rust, Python, JavaScript/TypeScript, and Swift</strong>, with
+					deep experience in MySQL, PostgreSQL, ClickHouse, Redis, Kafka, Docker/Kubernetes, Helm and Terraform.
+					On the product surface I work in Next.js/React and Flutter, and on the AI side in LLM integration
+					(OpenAI API), RAG pipelines and agent orchestration. I am particularly energized by the intersection
+					of AI and product — finding practical ways to ship LLM-powered features that create measurable value.
 				</p>
 
 				<p>
 					On the leadership and PM side, I bring <strong>cross-functional collaboration, stakeholder management,
 					and ownership coaching</strong>. Across every project at BeGroup — AI Platform, CDP, Fraud Detection,
-					Event Pipeline — I worked directly with product managers, business owners, and engineers to define
-					requirements, align on trade-offs, and drive delivery. I believe great engineering leadership means
+					Event Pipeline — and on the VETC Go delivery, I worked directly with product managers, business
+					owners, and engineers to define requirements, align on trade-offs, and drive delivery. I believe great engineering leadership means
 					setting clear technical direction, removing blockers, and creating space for the team to do their best
 					work. I share knowledge openly through tech talks, proposals, and code review — because a stronger team
 					compounds over time.

@@ -17,7 +17,30 @@
 		li.active {
 			text-decoration: underline;
 		}
+		.pdf-btn {
+			display: inline-block;
+			background: none;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			color: #8c8c8c;
+			padding: 3px 11px;
+			font-size: 0.85em;
+			font-family: "Space Grotesk", sans-serif;
+			line-height: 1.6;
+			cursor: pointer;
+			vertical-align: middle;
+			transition: color 0.2s ease, border-color 0.2s ease;
+		}
+		.pdf-btn:hover {
+			color: #333;
+			border-color: #333;
+		}
+		@page {
+			size: A4;
+			margin: 0;
+		}
 		@media print {
+			.pdf-btn { display: none !important; }
 			.container {
 				max-width: 92%;
 				padding: 0 24px;
@@ -64,6 +87,9 @@
 			</p>
 			<p>
 			<a href="#"><strong>Cover Letter</strong></a>: <a href="https://9bany.io/cover-letter" target="_blank" style="border-bottom: 1px solid #b3b3b3; padding-bottom: 2px; text-decoration: none;">view &rarr;</a>
+			</p>
+			<p>
+				<button type="button" class="pdf-btn" onclick="window.print()">export pdf &darr;</button>
 			</p>
 		</div>
 	</div>
