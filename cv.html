@@ -39,6 +39,9 @@
 			size: A4;
 			margin: 0;
 		}
+		.work .work-list li.company {
+			margin-top: 2.5em;
+		}
 		@media print {
 			.pdf-btn { display: none !important; }
 			.container {
@@ -112,7 +115,7 @@
 				<li><strong>Web:</strong> Next.js (App Router), React.</li>
 				<li><strong>Databases:</strong> MySQL, PostgreSQL, ClickHouse, Redis.</li>
 				<li><strong>Message Queues:</strong> Kafka, Google Pub/Sub.</li>
-                <li><strong>Infrastructure&Monitoring:</strong> Docker, Kubernetes, Helm, Terraform, CI/CD, Grafana, Prometheus, pprof, pyroscope.</li>
+                <li><strong>Infrastructure &amp; Monitoring:</strong> Docker, Kubernetes, Helm, Terraform, CI/CD, Grafana, Prometheus, pprof, pyroscope.</li>
 				<li><strong>AI/ML:</strong> LLM, RAG, Agent orchestrator.</li>
 				<li><strong>DSA:</strong> <a href="https://leetcode.com/9bany" target="_blank">leetcode.com/9bany.</a></li>
 			</ul>
@@ -126,13 +129,20 @@
 
             <ul class="work-list">
 
-				<li><a href="https://github.com/sabledb-io/sabledb" target="_blank">SableDB</a> </li>
+				<li><a href="https://tadimo.vn" target="_blank">Tadimo</a> </li>
+				<p>Tadimo — digital mobility platform launching in Vietnam.</p>
+				<ul class="work-list">
+					<li class="time"><b>Engineering Manager</b> • Full-time • Sep 2026 – Present • <span class="duration" data-start="2026-09">2 mos</span></li>
+					<li>- Leading engineering for the mobility super-app — designed the shared core platform (booking engine, payments &amp; ledger, identity, pricing) as Go microservices that new verticals plug into.</li>
+				</ul>
+
+				<li class="company"><a href="https://github.com/sabledb-io/sabledb" target="_blank">SableDB</a> </li>
 				<p>SableDB — open-source, persistent datastore written in Rust that speaks the Valkey/Redis wire protocol (RocksDB storage, replication, clustering). 450+ stars on GitHub.</p>
 				<ul class="work-list">
 					<li class="time"><b>Software Engineer</b> • Open source • Aug 2026 • 1 mo</li>
 				</ul>
 
-				<li><a href="https://vetcgo.vn" target="_blank">Tasco / VETC</a> </li>
+				<li class="company"><a href="https://vetcgo.vn" target="_blank">Tasco / VETC</a> </li>
 				<p>Tasco — Vietnam's ETC operator; VETC super-app serves 4.3M+ users. VETC Go is its B2C self-drive car-rental platform.</p>
 				<ul class="work-list">
 					<li class="time"><b>Software Engineer</b> • Contract / part-time • Jul 2026 – Aug 2026</li>
@@ -142,18 +152,15 @@
 					<li>- Integrated VETC super-app OAuth, payments and webhooks; built SRE deploy tooling and Flutter customer/staff apps.</li>
 				</ul>
 
-				<li><a href="#">BeGroup</a> </li>
-				<p>Be Group - one of Vietnam's fastest-growing tech startups, operator of the Be super app (ride-hailing, food delivery, super-app). Serving 9M+ customers nationwide, with 300,000+ drivers and tens of millions of monthly transactions.</p>
+				<li class="company"><a href="#">Be Group</a> </li>
+				<p>Be Group — operator of the Be super-app (ride-hailing, food delivery); 9M+ customers, 300K+ drivers.</p>
                 <ul class="work-list">
-                    <li class="time"><b>Senior Software Engineer</b> • Aug 2023 – Present • 3 yrs</li>
-                    <li>- Tech stack: Golang, MySQL, Kafka/Google Pub/Sub, Redis, Docker, Kubernetes, Grafana, Prometheus, pprof.</li>
-                    <li>- Built and maintained large-scale systems: AI Platform, CDP, Notification Platform, Fraud Detection, Event Pipeline. Acted as embedded PM across all products — owning requirements, aligning stakeholders, and driving delivery end-to-end.</li>
-                    <li class="highlight">- <b>AI Platform & LLM Integration:</b> Led end-to-end design and delivery of an AI Platform powering multiple AI agent products. Defined technical direction, integrated LLMs (OpenAI API), RAG pipelines, and agent orchestration. Worked directly with PMs and business stakeholders to translate use-cases into shipped products — with a lean team.</li>
-                    <li class="highlight">- <b>CDP & Notification Platform:</b> Architected scalable user engagement system delivering >150M messages/day with personalized fare config per user. Collaborated with product and data teams to align on targeting logic and rollout strategy.</li>
-                    <li class="highlight">- <b>Fraud Detection System:</b> Designed real-time fraud detection processing >30M rule-based users, catching >10K fraudulent transactions/day. Worked cross-functionally with operations, risk, and product to define rules and acceptance criteria.</li>
-                    <li>- Diagnosed memory & goroutine leaks in Be-kit using pprof, reducing system cost and improving stability. Conducted internal tech talk to share findings and upskill the team.</li>
-                    <li>- Authored cross-team architectural proposal: Monolith to Microservices — identified systemic risks, defined migration path, and gained alignment from engineering leads and product stakeholders.</li>
-                    <li>- Bridged system gaps and drove cross-functional technical initiatives end-to-end as a technical PM-embedded engineer.</li>
+                    <li class="time"><b>Senior Software Engineer</b> • Aug 2023 – Present • <span class="duration" data-start="2023-08">3 yrs</span></li>
+                    <li>- Tech stack: Golang, MySQL, Kafka/Google Pub/Sub, Redis, Kubernetes, Prometheus/Grafana, pprof.</li>
+                    <li class="highlight">- <b>AI Platform:</b> led design and delivery of the platform behind multiple AI agent products (LLM, RAG, agent orchestration) with a lean team.</li>
+                    <li class="highlight">- <b>CDP &amp; Notification Platform:</b> architected the engagement system delivering 150M+ messages/day.</li>
+                    <li class="highlight">- <b>Fraud Detection:</b> real-time rule engine across 30M+ users, catching 10K+ fraudulent transactions/day.</li>
+                    <li>- Fixed memory &amp; goroutine leaks in shared Go libraries with pprof; authored the Monolith → Microservices proposal; acted as embedded PM across products.</li>
                 </ul>
 				
 				<ul class="work-list">
@@ -163,7 +170,7 @@
 			</ul>
 
 			<ul class="work-list">
-				<li><a href="#">Primedata.ai VN</a> </li>
+				<li class="company"><a href="#">Primedata.ai VN</a> </li>
 				<li class="time"><b>Backend Engineer</b> • Full-time • Aug 2022 – Aug 2023 • 1 yr 1 mo</li>
 				<li>- Tech stack: Golang, Python, gRPC, Kafka, Docker, Kubernetes, Grafana, PostgreSQL, ClickHouse, Redis, GitHub Actions.</li>
                 <li>- Domain: Customer Data Platform (CDP).</li>
@@ -172,16 +179,16 @@
 			</ul>
 
 			<ul class="work-list">
-				<li><a href="#">OLLI Technologies</a> </li>
+				<li class="company"><a href="#">OLLI Technologies</a> </li>
 				<li class="time"><b>iOS Engineer</b> • Full-time • Feb 2021 – Aug 2022 • 1 yr 6 mos</li>
 				<li>- Tech stack: Swift, UIKit, SwiftUI.</li>
-                <li>- Domain: IOT.</li>
+                <li>- Domain: IoT.</li>
 				<li>- Owned the Home Assistant iOS application.</li>
 				<li>- Reduced iOS build time by 80% through build system optimization and pipeline improvements.</li>
 			</ul>
 			
 			<ul class="work-list">
-				<li><a href="#">Umbala.tv</a> </li>
+				<li class="company"><a href="#">Umbala.tv</a> </li>
 				<li class="time"><b>iOS Engineer</b> • Full-time • Feb 2019 – Nov 2020 • 1 yr 9 mos</li>
 				<li>- Tech stack: Swift, UIKit.</li>
 				<li>- Domain: ecommerce / social / live streaming.</li>
@@ -194,7 +201,7 @@
 			<h2>projects</h2>
 			<ul>
 				<li><strong>Tasco/VETC:</strong> <a href="https://vetcgo.vn" target="_blank">VETC Go</a> — car-rental platform (Next.js web, Go microservices, VETC mini-app, Flutter customer/staff apps).</li>
-				<li><strong>BeGroup:</strong> CDP, Notification Platform, Fraud Detection System, AI/Agent orchestrator, Event/Data Pipeline.</li>
+				<li><strong>Be Group:</strong> CDP, Notification Platform, Fraud Detection System, AI/Agent orchestrator, Event/Data Pipeline.</li>
 				<li><strong>Primedata.ai:</strong> CDP SaaS.</li>
 				<li><strong>Umbala.tv:</strong> iOS apps (ecommerce / social / live streaming).</li>
 				<li><strong>OLLI:</strong> Home Assistant iOS App.</li>
@@ -221,7 +228,7 @@
 		<div class="container">
 			<h2>references</h2>
 			<ul class="skill-list list-flat">
-				<li>&#8226 <strong>Lý Vĩnh Tường</strong> — Principal Data Engineer, BeGroup
+				<li>&#8226 <strong>Lý Vĩnh Tường</strong> — Principal Data Engineer, Be Group
 					<br>&nbsp;&nbsp;&nbsp;&#9993; <a href="mailto:lyvinhtuong@gmail.com">lyvinhtuong@gmail.com</a> &#8226 (+84) 973932003 &#8226 <a href="https://www.linkedin.com/in/tuonglv/" target="_blank">linkedin.com/in/tuonglv</a>
 				</li>
 				<li>&#8226 <strong>Phạm Minh Mẫn</strong> — ML Infrastructure, TinyFish
@@ -247,6 +254,23 @@
 
 				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
 			}), $(".reset").click(function () { $("#typed").typed("reset") })
+		});
+	</script>
+	<script>
+		// Fill in "– Present" durations LinkedIn-style: both start and current month count.
+		function formatDuration(start, now) {
+			var parts = start.split('-');
+			var months = (now.getFullYear() - Number(parts[0])) * 12 + (now.getMonth() + 1 - Number(parts[1])) + 1;
+			var years = Math.floor(months / 12);
+			var rest = months % 12;
+			var out = [];
+			if (years) out.push(years + (years === 1 ? ' yr' : ' yrs'));
+			if (rest) out.push(rest + (rest === 1 ? ' mo' : ' mos'));
+			return out.join(' ');
+		}
+		document.querySelectorAll('.duration[data-start]').forEach(function (el) {
+			var text = formatDuration(el.dataset.start, new Date());
+			if (text) el.textContent = text;
 		});
 	</script>
 	<script defer src="https://cloud.umami.is/script.js" data-website-id="aab427c9-5cc4-460e-a4d2-2249aef1e3f9"></script>
