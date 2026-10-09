@@ -139,6 +139,9 @@ a:hover {
 .work .work-list {
   margin-left: 0px; 
 }
+.work .work-list .work-list {
+  margin-bottom: 1.75em;
+}
 .work .work-list .time{
   color: #8c8c8c
 }
