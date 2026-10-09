@@ -129,20 +129,17 @@
 				<li><a href="https://github.com/sabledb-io/sabledb" target="_blank">SableDB</a> </li>
 				<p>SableDB — open-source, persistent datastore written in Rust that speaks the Valkey/Redis wire protocol (RocksDB storage, replication, clustering). 450+ stars on GitHub.</p>
 				<ul class="work-list">
-					<li class="time"><b>Software Engineer</b> • Open source • Aug 2026 – Present • 1 mo</li>
+					<li class="time"><b>Software Engineer</b> • Open source • Aug 2026 • 1 mo</li>
 				</ul>
 
 				<li><a href="https://vetcgo.vn" target="_blank">Tasco / VETC</a> </li>
-				<p>Tasco — Vietnam's ETC operator; VETC super-app serves 4.3M+ users (wallet, toll collection). VETC Go is its B2C self-drive car-rental platform, shipped both as a mini-program inside the super-app and as a standalone web/mobile product.</p>
+				<p>Tasco — Vietnam's ETC operator; VETC super-app serves 4.3M+ users. VETC Go is its B2C self-drive car-rental platform.</p>
 				<ul class="work-list">
 					<li class="time"><b>Software Engineer</b> • Contract / part-time • Jul 2026 – Aug 2026</li>
-					<li>- Tech stack: Golang, Next.js/React, Flutter, PostgreSQL, Redis, gRPC/Protobuf, Kong, Docker, Kubernetes (FPT Cloud), Helm, Terraform, Prometheus/Grafana.</li>
-					<li class="highlight">- <b>Shipped <a href="https://vetcgo.vn" target="_blank">vetcgo.vn</a> in ~3 weeks</b> — Next.js 15 App Router marketing site + booking funnel, same-origin BFF with httpOnly-cookie auth, SSR for SEO, GA4/GTM with Consent Mode v2. Live in production.</li>
-					<li class="highlight">- <b>Monolith → Go microservices:</b> ported a NestJS monolith to 8+ Go services (identity, customer, ops, pricing, payment, push, sms, map) behind a stable gateway contract. Kept both backends provably equivalent with a language-agnostic conformance suite running the same specs against each.</li>
-					<li>- Integrated the VETC super-app end-to-end: OAuth (client-credentials + auth-code exchange), payment create/refund, HMAC-verified IPN webhooks, signed deeplinks — plus VNPay IPN spec compliance and two-way webhook logging.</li>
-					<li>- Built the SRE tooling from scratch: one <code>sre</code> CLI for build/deploy/rollback/secrets across ~12 apps, cluster-side buildkit, immutable commit-derived image tags, age-encrypted secrets safe to commit.</li>
-					<li>- Shared Prometheus package across all Go services (HTTP RED + gRPC server/client metrics) on a dedicated port unreachable from ingress by construction.</li>
-					<li>- Delivered Flutter customer &amp; staff apps (Android/iOS/Web) with FCM push, SSE live trip status, and in-house APK distribution via presigned URLs.</li>
+					<li>- Tech stack: Golang, Next.js, Flutter, PostgreSQL, Redis, gRPC, Kubernetes, Terraform, Prometheus/Grafana.</li>
+					<li class="highlight">- <b>Shipped <a href="https://vetcgo.vn" target="_blank">vetcgo.vn</a> in ~3 weeks</b> — Next.js site + booking funnel, live in production.</li>
+					<li class="highlight">- <b>Monolith → Go microservices:</b> ported a NestJS monolith to 8+ Go services, verified equivalent by a shared conformance test suite.</li>
+					<li>- Integrated VETC super-app OAuth, payments and webhooks; built SRE deploy tooling and Flutter customer/staff apps.</li>
 				</ul>
 
 				<li><a href="#">BeGroup</a> </li>
